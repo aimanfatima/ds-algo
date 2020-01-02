@@ -12,9 +12,10 @@ vector<string> apc(string s)
         return bres;
     } 
     vector<string> mres ;   
-    if(s.size()>=1)
+    int fidx = stoi(s.substr(0,1));
+    if(s.size()>=1 && fidx!=0)
     {
-        int fidx = stoi(s.substr(0,1));
+        
         char fletter = str[fidx];
         vector<string> oneres = apc(s.substr(1, s.size()-1));
 
@@ -51,10 +52,9 @@ int main(int argc, char** argv)
     for(int i=1; i<=26;i++)
     {
         str[i] = letter;
-        //cout<<string(1,str[i])<<" ";
         letter++;
     }
-    string s = "1023";
+    string s = "11023";
     //10016 - invalid
     // Handle this 1023
     vector<string> res = apc(s);
