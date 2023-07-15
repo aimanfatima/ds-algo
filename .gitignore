@@ -1,2 +1,7 @@
 *.exe
 .vscode/
+*.idea/
+*.iml
+*.xml
+*/.DS_STORE
+.DS_STORE
