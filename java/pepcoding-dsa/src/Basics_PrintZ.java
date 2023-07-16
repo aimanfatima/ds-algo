@@ -1,4 +1,4 @@
-public class PrintZ {
+public class Basics_PrintZ {
     /**
      * PRINT Z
      *   *****

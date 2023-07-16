@@ -1,4 +1,4 @@
-public class GradingSystem {
+public class Basics_GradingSystem {
     public static void main (String[] args) {
         int marks = 96;
 
