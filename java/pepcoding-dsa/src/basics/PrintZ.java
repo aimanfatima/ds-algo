@@ -1,4 +1,6 @@
-public class Basics_PrintZ {
+package basics;
+
+public class PrintZ {
     /**
      * PRINT Z
      *   *****

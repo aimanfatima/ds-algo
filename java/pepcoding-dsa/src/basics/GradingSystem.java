@@ -1,4 +1,6 @@
-public class Basics_GradingSystem {
+package basics;
+
+public class GradingSystem {
     public static void main (String[] args) {
         int marks = 96;
 

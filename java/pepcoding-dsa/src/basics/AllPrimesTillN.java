@@ -1,6 +1,8 @@
+package basics;
+
 import java.util.Scanner;
 
-public class Basics_AllPrimesTillN {
+public class AllPrimesTillN {
     public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);
         int low = scanner.nextInt();

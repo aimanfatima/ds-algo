@@ -1,6 +1,8 @@
+package basics;
+
 import java.util.Scanner;
 
-public class Basics_IsPrime {
+public class IsPrime {
     public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
