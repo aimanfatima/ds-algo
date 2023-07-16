@@ -10,6 +10,7 @@ public class Fibonacci {
         int first = 0;
         int second = 1;
         for (int i=1; i<=n ; i++) {
+            /*
             if (i==1) {
                 System.out.print(first + " ");
             } else if (i==2) {
@@ -20,6 +21,12 @@ public class Fibonacci {
                 second = next;
                 System.out.print(next + " ");
             }
+            */
+            // better approach
+            System.out.print(first + " ");
+            int next = first + second;
+            first = second;
+            second = next;
         }
     }
 }
