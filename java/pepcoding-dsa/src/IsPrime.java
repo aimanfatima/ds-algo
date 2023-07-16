@@ -6,7 +6,7 @@ public class IsPrime {
         int n = scanner.nextInt();
         boolean isPrime = true;
 
-        for (int i=2; i <= Math.sqrt(n); i++) {
+        for (int i=2; i*i <= n; i++) {
             if (n % i == 0) {
                 isPrime = false;
                 break;
