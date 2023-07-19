@@ -1,7 +1,7 @@
 package patterns;
 
 /**
-
+ HOLLOW DIAMOND
  *	*	*	*	*	*	 	*	*	*	*	*	*
  *	*	*	*	*	 	 	 	*	*	*	*	*
  *	*	*	*	 	 	 	 	 	*	*	*	*
