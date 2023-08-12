@@ -18,7 +18,7 @@ HOUR GLASS
 public class Pattern18 {
     public static void main(String[] args) {
         int n = 7;
-        int st = 7;
+        int st = n;
         int sp = 0;
 
         for (int i=1; i<=n; i++) {
