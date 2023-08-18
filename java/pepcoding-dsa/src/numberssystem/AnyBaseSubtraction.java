@@ -18,19 +18,25 @@ public class AnyBaseSubtraction {
         int power = 1;
         int carry = 0;
 
-        while (num1 > 0 || num2 > 0) {
+        while (num1 > 0) {
             int digit1 = num1 % 10;
             int digit2 = num2 % 10;
-
-            int ans = digit1 - digit2 + carry;
             num1 = num1 / 10;
             num2 = num2 / 10;
-            if (ans < 0) {
-                digit1 = digit1 + base;
-                num1 = num1 - 1;
-                ans = digit1 - digit2;
+
+            digit1 = digit1 + carry;
+
+            int digit = 0;
+
+            if (digit1 >= digit2) {
+                carry = 0;
+                digit = digit1 - digit2;
+            } else {
+                carry = -1;
+                digit = (digit1 + base) - digit2;
             }
-            result  = result + (ans * power);
+
+            result  = result + (digit * power);
             power = power * 10;
 
         }
