@@ -19,25 +19,28 @@ public class AnyBaseMultiplication {
         while (num2 > 0) {
             int digit2 = num2 % 10;
             num2 = num2 / 10;
-
-            int num = num1;
-            int power = 1;
-            int carry = 0;
-            int digitProduct = 0;
-            while (num > 0 || carry > 0) {
-                int digit1 = num % 10;
-                num = num / 10;
-
-                int product = digit1 * digit2 + carry;
-                digitProduct += ((product % base) * power);
-                carry = product / base;
-                power = power * 10;
-            }
+            int digitProduct = getDigitProduct(base, digit2, num1);
             result = anyBaseAddition(result, digitProduct * mainPower, base);
             mainPower = mainPower * 10;
         }
 
         return result;
+    }
+
+    private static int getDigitProduct(int base, int digit2, int num) {
+        int power = 1;
+        int carry = 0;
+        int digitProduct = 0;
+        while (num > 0 || carry > 0) {
+            int digit1 = num % 10;
+            num = num / 10;
+
+            int product = digit1 * digit2 + carry;
+            digitProduct += ((product % base) * power);
+            carry = product / base;
+            power = power * 10;
+        }
+        return digitProduct;
     }
 
     private static int anyBaseAddition(int number1, int number2, int base) {
