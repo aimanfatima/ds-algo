@@ -45,6 +45,10 @@ public class CustomStack {
         }
 
         int top() {
+            if (topOfStack == -1) {
+                System.out.println("Stack underflow");
+                return -1;
+            }
             return data[topOfStack];
         }
     }
