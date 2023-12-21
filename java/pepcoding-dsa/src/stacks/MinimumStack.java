@@ -3,6 +3,10 @@ package stacks;
 import java.io.*;
 import java.util.*;
 
+/**
+ * in constant time (not constant space)
+ * Because we are taking O(n) space complexity
+ */
 public class MinimumStack {
 
     public static class MinStack {
