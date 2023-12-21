@@ -34,7 +34,11 @@ public class MinimumStack {
                 System.out.println("Stack underflow");
                 return -1;
             }
-            return allData.pop();
+            int val = allData.pop();
+            if (minData.size() > 0 && val == minData.peek()) {
+                minData.pop();
+            }
+            return val;
         }
 
         int top() {
