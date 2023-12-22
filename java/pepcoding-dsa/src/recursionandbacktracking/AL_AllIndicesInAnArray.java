@@ -19,8 +19,7 @@ public class AL_AllIndicesInAnArray {
             allIndices[foundSoFar] = index;
             return allIndices;
         } else {
-            int[] allIndices = allIndicesInAnArray(arr, data, index+1, foundSoFar);
-            return allIndices;
+            return allIndicesInAnArray(arr, data, index+1, foundSoFar);
         }
     }
 }
