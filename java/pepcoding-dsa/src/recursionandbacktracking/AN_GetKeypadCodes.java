@@ -1,7 +1,6 @@
 package recursionandbacktracking;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class AN_GetKeypadCodes {
