@@ -13,7 +13,7 @@ public class AO_GetStairPath {
     static ArrayList<String> getAllStairPath(int n) {
         if (n <= 0) {
             ArrayList<String> baseResult = new ArrayList<>();
-            if (n < 0) {
+            if (n == 0) {
                 baseResult.add("");
             }
             return baseResult;
