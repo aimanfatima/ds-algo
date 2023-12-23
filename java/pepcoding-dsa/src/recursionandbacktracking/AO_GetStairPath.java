@@ -11,12 +11,12 @@ public class AO_GetStairPath {
     static int[] possibleSteps = {1, 2, 3, 4, 5};
 
     static ArrayList<String> getAllStairPath(int n) {
-        if (n == 0) {
+        if (n <= 0) {
             ArrayList<String> baseResult = new ArrayList<>();
-            baseResult.add("");
+            if (n < 0) {
+                baseResult.add("");
+            }
             return baseResult;
-        } else if (n < 0) {
-            return new ArrayList<>();
         }
 
         ArrayList<String> allPossiblePaths = new ArrayList<>();
