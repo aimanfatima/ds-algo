@@ -11,6 +11,7 @@ public class AZ_TargetSumSubset {
         arr.add(30);
         arr.add(40);
         arr.add(50);
+        arr.add(60);
         printTargetSumSubsets(arr, 100,0, "");
         System.out.println("No of recursive calls =" + count);
     }
