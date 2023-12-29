@@ -1,8 +1,8 @@
 ﻿# Data-Structures-and-Algorithms
 
 ```
+
 .
-|-- README.md
 |-- cpp
 |   |-- Dynamic\ Programming
 |   |   |-- 01_fibonacci_memoized.cpp
@@ -75,119 +75,6 @@
 |       `-- 40_n_queenProblem_queen_on_level_combinations.cpp
 `-- java
     `-- pepcoding-dsa
-        |-- out
-        |   `-- production
-        |       `-- pepcoding-dsa
-        |           |-- arrays
-        |           |   |-- BarChart.class
-        |           |   |-- FindElementInAnArray.class
-        |           |   |-- SpanOfArray.class
-        |           |   `-- SumOf2Arrays.class
-        |           |-- basics
-        |           |   |-- AllPrimesTillN.class
-        |           |   |-- BenjaminBulbs.class
-        |           |   |-- CountDigitsInANumber.class
-        |           |   |-- DigitsFrequency.class
-        |           |   |-- DigitsOfANumber.class
-        |           |   |-- DigitsOfANumberReverse.class
-        |           |   |-- Fibonacci.class
-        |           |   |-- GCDLCM.class
-        |           |   |-- GradingSystem.class
-        |           |   |-- HelloWorld.class
-        |           |   |-- InverseOfANumber.class
-        |           |   |-- IsPrime.class
-        |           |   |-- PrimeFactorization.class
-        |           |   |-- PrintZ.class
-        |           |   |-- PythagoreanTriplet.class
-        |           |   `-- RotateANumber.class
-        |           |-- dynamicprogramming
-        |           |   |-- AA_Fibonacci.class
-        |           |   |-- AB_StairsPath.class
-        |           |   |-- AC_ClimbStairsWithJumps.class
-        |           |   |-- AD_ClimbStairsMinMoves.class
-        |           |   |-- AE_MinCostMazeTravel.class
-        |           |   `-- AF_Goldmine.class
-        |           |-- numberssystem
-        |           |   |-- AnyBaseAddition.class
-        |           |   |-- AnyBaseMultiplication.class
-        |           |   |-- AnyBaseSubtraction.class
-        |           |   |-- AnyBaseToAnyBase.class
-        |           |   |-- AnyBaseToDecimal.class
-        |           |   `-- ConvertDecimalToBaseB.class
-        |           |-- patterns
-        |           |   |-- Pattern1.class
-        |           |   |-- Pattern10.class
-        |           |   |-- Pattern11.class
-        |           |   |-- Pattern12.class
-        |           |   |-- Pattern13.class
-        |           |   |-- Pattern14.class
-        |           |   |-- Pattern15.class
-        |           |   |-- Pattern16.class
-        |           |   |-- Pattern17.class
-        |           |   |-- Pattern18.class
-        |           |   |-- Pattern19.class
-        |           |   |-- Pattern2.class
-        |           |   |-- Pattern20.class
-        |           |   |-- Pattern3.class
-        |           |   |-- Pattern4.class
-        |           |   |-- Pattern5.class
-        |           |   |-- Pattern6.class
-        |           |   |-- Pattern7.class
-        |           |   |-- Pattern8.class
-        |           |   `-- Pattern9.class
-        |           |-- recursionandbacktracking
-        |           |   |-- AA_PrintDecreasing.class
-        |           |   |-- AB_PrintIncreasing.class
-        |           |   |-- AC_PrintDecreasingIncreasing.class
-        |           |   |-- AD_Factorial.class
-        |           |   |-- AE_Power.class
-        |           |   |-- AF_PrintZigZag.class
-        |           |   |-- AG_TowerOfHanoi.class
-        |           |   |-- AH_DisplayArray.class
-        |           |   |-- AI_DisplayArrReverse.class
-        |           |   |-- AJ_MaxOfArray.class
-        |           |   |-- AK_FirstIndexOfOccurance.class
-        |           |   |-- AL_AllIndicesInAnArray.class
-        |           |   |-- AM_GetAllSubsequence.class
-        |           |   |-- AN_GetKeypadCodes.class
-        |           |   |-- AO_GetStairPath.class
-        |           |   |-- AP_GetMazePath.class
-        |           |   |-- AQ_GetMazePathWithJumps.class
-        |           |   |-- AR_PrintAllSubsequences.class
-        |           |   |-- AS_PrintKeypadCombinations.class
-        |           |   |-- AT_PrintStairPath.class
-        |           |   |-- AU_PrintMazePath.class
-        |           |   |-- AV_PrintMazePathJumps.class
-        |           |   |-- AW_PrintAllPermutations.class
-        |           |   |-- AX_PrintAllEncodings.class
-        |           |   |-- AY_FloodFill.class
-        |           |   |-- AZ_TargetSumSubset.class
-        |           |   `-- BA_NQueens.class
-        |           `-- stacks
-        |               |-- BalancedBrackets.class
-        |               |-- Basics.class
-        |               |-- CelebrityProblem.class
-        |               |-- CustomStack$Stack.class
-        |               |-- CustomStack.class
-        |               |-- DuplicateBrackets.class
-        |               |-- DynamicStack$CustomStack.class
-        |               |-- DynamicStack.class
-        |               |-- InfixEvaluation.class
-        |               |-- InfixToPrePostFixConversions.class
-        |               |-- LargestAreaHistogram.class
-        |               |-- MergeOverlappingIntervals$Pair.class
-        |               |-- MergeOverlappingIntervals.class
-        |               |-- MinimumStack$MinStack.class
-        |               |-- MinimumStack.class
-        |               |-- MinimumStackII$MinStack.class
-        |               |-- MinimumStackII.class
-        |               |-- NextGreaterElementToRight.class
-        |               |-- NextGreaterElmtToRightApproach2.class
-        |               |-- PostfixEvaluationsAndConversions.class
-        |               |-- PrefixEvaluationsAndConversions.class
-        |               |-- SlidingWindowMaximum.class
-        |               `-- StockSpanProblem.class
-        |-- pepcoding-dsa.iml
         `-- src
             |-- arrays
             |   |-- BarChart.java
