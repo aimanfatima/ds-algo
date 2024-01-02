@@ -37,6 +37,5 @@ public class AF_Goldmine {
             }
         }
         return maxGold;
-
     }
 }
