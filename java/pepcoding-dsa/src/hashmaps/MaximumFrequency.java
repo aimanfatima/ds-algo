@@ -4,8 +4,10 @@ import java.util.HashMap;
 
 public class MaximumFrequency {
     public static void main(String[] args) {
-        String s = "abracadabra";
+        String s = "abcd";
         HashMap<Character, Integer> hm  = new HashMap<>();
+
+        Character result = s.charAt(0);
 
         for (int i=0; i<s.length(); i++) {
             char c = s.charAt(i);
@@ -15,16 +17,11 @@ public class MaximumFrequency {
                 int val = hm.get(c);
                 hm.put(c, val+1);
             }
-        }
-
-        Character result = null;
-        int max = Integer.MIN_VALUE;
-        for (Character key : hm.keySet()) {
-            if (hm.get(key) > max) {
-                result = key;
-                max = hm.get(key);
+            if (hm.get(c) > hm.get(result)) {
+                result = c;
             }
         }
+
         System.out.println(hm);
         System.out.println(result);
     }
