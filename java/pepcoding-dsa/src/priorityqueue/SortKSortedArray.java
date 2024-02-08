@@ -10,16 +10,11 @@ public class SortKSortedArray {
 
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         for (int i=0; i<arr.length; i++) {
-            if (i < k) {
+            if (i <= k) {
                 pq.add(arr[i]);
             } else {
-                if (arr[i] > pq.peek()) {
-                    System.out.println(pq.peek());
-                    pq.remove();
-                    pq.add(arr[i]);
-                } else {
-                    System.out.println(arr[i]);
-                }
+                System.out.println(pq.remove());
+                pq.add(arr[i]);
             }
         }
         while (pq.size() > 0) {
