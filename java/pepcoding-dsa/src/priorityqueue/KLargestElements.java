@@ -12,6 +12,7 @@ public class KLargestElements {
         // create a PQ with priority given to minimum no.
         // Why? We want to give highest priority to a number which is the weakest
         // because that number will be dropped if some better candidate is there
+        // Golden rule: to get into the team you just need to be better than their worst player!!!
         PriorityQueue<Integer> pq = new PriorityQueue<>();
 
 
