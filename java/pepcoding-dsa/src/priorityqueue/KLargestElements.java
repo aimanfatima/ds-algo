@@ -8,6 +8,10 @@ public class KLargestElements {
         // TC : n log k
         int[] arr = {2, 10, 5, 17, 7, 18, 6, 4};
         int k = 3;
+
+        // create a PQ with priority given to minimum no.
+        // Why? We want to give highest priority to a number which is the weakest
+        // because that number will be dropped if some better candidate is there
         PriorityQueue<Integer> pq = new PriorityQueue<>();
 
 
