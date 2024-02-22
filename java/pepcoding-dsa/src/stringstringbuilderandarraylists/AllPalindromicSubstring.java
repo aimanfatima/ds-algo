@@ -16,16 +16,15 @@ public class AllPalindromicSubstring {
     }
 
     private static boolean isPalindrome(String substr) {
-        boolean isPalindrome = true;
         int left = 0;
         int right = substr.length()-1;
         while(left < right) {
             if(substr.charAt(left) != substr.charAt(right)) {
-                isPalindrome = false;
+                return false;
             }
             left++;
             right--;
         }
-        return isPalindrome;
+        return true;
     }
 }
