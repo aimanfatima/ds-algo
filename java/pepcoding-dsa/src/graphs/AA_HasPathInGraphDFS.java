@@ -3,7 +3,7 @@ package graphs;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class HasPathInGraphDFS {
+public class AA_HasPathInGraphDFS {
     public static class Edge {
         int source;
         int neighbour;
