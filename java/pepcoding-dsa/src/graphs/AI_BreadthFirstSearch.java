@@ -34,6 +34,10 @@ public class AI_BreadthFirstSearch {
 
         while (!queue.isEmpty()) {
             Pair element = queue.poll();
+            // ????
+//            if (visited[element.vertex]) {
+//                continue;
+//            }
             visited[element.vertex] = true;
             System.out.println(element.path);
             for (int nbr: graph[element.vertex]) {
